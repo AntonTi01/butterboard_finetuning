@@ -46,8 +46,8 @@ def main():
     diar_source = Path("/Users/forcemajor01/data_science/work_place/butterboard/butterboard_interview_analysis/results/diarization")
     
     # Задаём пути целевых директорий
-    trans_destination = Path("/Users/forcemajor01/data_science/work_place/butterboard/finetuning/raw_data/transcribation")
-    diar_destination = Path("/Users/forcemajor01/data_science/work_place/butterboard/finetuning/raw_data/diarization")
+    trans_destination = Path("/Users/forcemajor01/data_science/work_place/butterboard/butterboard_finetuning/raw_data/transcribation")
+    diar_destination = Path("/Users/forcemajor01/data_science/work_place/butterboard/butterboard_finetuning/raw_data/diarization")
     
     # Перемещаем файлы для транскрибации (.docx)
     move_final_files(trans_source, trans_destination, ".docx")
